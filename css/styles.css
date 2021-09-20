@@ -8,3 +8,59 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+.logo {
+    color: var(--accent-color);
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    fo font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.header-link {
+    font-style: Medium;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    line-height: 100%;
+    align: Left Vertical;
+    align: Top;
+    letter spacing: 2%;
+    color: var(--secondary-titele-color);
+    ;
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-color);
+}
+
+.header-contacst-link {
+    color: var(--secondary-titele-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.header-contacst-link:hover,
+.header-contacst-link:focus {
+    color: var(--accent-color);
+}
+
+.btn {
+    color: var(--primary-titele-color);
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
