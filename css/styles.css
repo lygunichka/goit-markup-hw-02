@@ -2,20 +2,26 @@
     --primary-titele-color: #FFFFFF;
     --secondary-titele-color: #212121;
     --primary-text-color: #757575;
-    --accent-color: #2196F3;
+    --second-text-color: #212121 --accent-color: #2196F3;
 }
+
+
+/* БОДИ */
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
 }
 
-.logo {
+
+/* ! ЛОГО */
+
+.logo-web {
     color: var(--accent-color);
     font-family: Raleway;
-    font-style: normal;
     font-weight: bold;
-    fo font-size: 26px;
-    line-height: 31px;
+    font-size: 26px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
@@ -27,17 +33,15 @@ body {
     list-style: none;
 }
 
+
+/* ХЕДЕР */
+
 .header-link {
-    font-style: Medium;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
-    line-height: 100%;
-    align: Left Vertical;
-    align: Top;
+    line-height: 1.14;
     letter spacing: 2%;
     color: var(--secondary-titele-color);
-    ;
 }
 
 .header-link:hover,
@@ -49,7 +53,7 @@ body {
     color: var(--secondary-titele-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
@@ -58,9 +62,107 @@ body {
     color: var(--accent-color);
 }
 
+
+/* МЕИН */
+
+
+/* ХЕРО */
+
+.hero {
+    background: #2F303A;
+    ;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-titele-color);
+}
+
 .btn {
     color: var(--primary-titele-color);
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* ХАРАКТЕРИСТИКИ */
+
+.specifications-title {
+    visibility: hidden;
+}
+
+.specifications-item-title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-titele-color);
+}
+
+.specifications-paragraph {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+
+/* Чем мы занимаемся */
+
+.work-title {
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--secondary-titele-color);
+}
+
+
+/* НАША КОМАНДА */
+
+.command-title {
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--secondary-titele-color);
+}
+
+.command-item-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--secondary-titele-color);
+}
+
+.command-profession {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+
+
+/* ФУТЕР */
+
+.footer {
+    background: #2F303A;
+}
+
+.address-footer-paragraph {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-titele-color);
+}
+
+.footer-contacst-link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
