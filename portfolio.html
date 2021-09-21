@@ -6,37 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header>
-        <a class="link" href="/"><span class="logo-web">Web</span>Studio</a>
+    <header class="header">
+        <a class="header-logo link" href="/"><span class="logo-web">Web</span>Studio</a>
         <nav class="menu">
-            <ul>
-                <li><a href="#">Студия</a></li>
-                <li><a href="#">Портфолио</a></li>
-                <li><a href="#">Контакты</a></li>
+            <ul class="list">
+                <li class="header-item"><a class="header-link link" href="#">Студия</a></li>
+                <li class="header-item"><a class="header-link link" href="./portfolio.html">Портфолио</a></li>
+                <li class="header-item"><a class="header-link link" href="#">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
+        <ul class="list">
             <li>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="header-contacst-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li>
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="header-contacst-link link" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
     </header>
 
     <main>
-        <section>
+        <section class="hero-portfolio">
             <h1 hidden>portfolio</h1>
             <div>
-                <button type="button">Все</button>
-                <button type="button">Веб-сайты</button>
-                <button type="button">Приложения</button>
-                <button type="button">Дизайн</button>
-                <button type="button">Маркетинг</button>
+                <button class="btn-portfolio" type="button">Все</button>
+                <button class="btn-portfolio" type="button">Веб-сайты</button>
+                <button class="btn-portfolio" type="button">Приложения</button>
+                <button class="btn-portfolio" type="button">Дизайн</button>
+                <button class="btn-portfolio" type="button">Маркетинг</button>
             </div>
             <ul>
                 <li>
@@ -87,16 +91,16 @@
             </ul>
         </section>
     </main>
-    <footer>
-        <a class="footer-logo link" href="/"><span class="logo-web">Web</span>Studio</a>
-        <address>
-            <p>г. Киев, пр-т Леси Украинки, 26</p>
-            <ul>
+    <footer class="footer">
+        <a class="footer-logo link list" href="/"><span class="logo-web">Web</span>Studio</a>
+        <address class="address-footer">
+            <p class="address-footer-paragraph list">г. Киев, пр-т Леси Украинки, 26</p>
+            <ul class="address-footer">
                 <li>
-                    <a href="mailto:info@example.com">info@example.com</a>
+                    <a class="footer-contacst-link link list" href="mailto:info@example.com">info@example.com</a>
                 </li>
                 <li>
-                    <a href="tel:+380991111111">+38 099 111 11 11</a>
+                    <a class="footer-contacst-link link list" href="tel:+380991111111">+38 099 111 11 11</a>
                 </li>
             </ul>
         </address>
