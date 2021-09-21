@@ -2,13 +2,14 @@
     --primary-titele-color: #FFFFFF;
     --secondary-titele-color: #212121;
     --primary-text-color: #757575;
-    --second-text-color: #212121 --accent-color: #2196F3;
+    --second-text-color: #212121;
+    --accent-color: #2196F3;
 }
 
 
 /* БОДИ */
 
-body {
+.body {
     font-family: 'Roboto', sans-serif;
     color: var(--primary-text-color);
 }
@@ -40,7 +41,7 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter spacing: 2%;
+    letter-spacing: 0.02em;
     color: var(--secondary-titele-color);
 }
 
@@ -165,4 +166,8 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-logo {
+    color: var(--primary-titele-color);
 }
