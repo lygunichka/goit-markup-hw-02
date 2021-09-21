@@ -1,171 +1,192 @@
-               :root {
-                  --primary-titele-color: #FFFFFF;
-                  --secondary-titele-color: #212121;
-                  --primary-text-color: #757575;
-                  --second-text-color: #212121;
-                  --accent-color: #2196F3;
-              }
-              /* БОДИ */
-              
-              .body {
-                  font-family: 'Roboto', sans-serif;
-                  color: var(--primary-text-color);
-              }
-              /* ! ЛОГО */
-              
-              .logo-web {
-                  color: var(--accent-color);
-                  font-family: Raleway;
-                  font-weight: bold;
-                  font-size: 26px;
-                  line-height: 1.19;
-                  letter-spacing: 0.03em;
-              }
-              
-              .link {
-                  text-decoration: none;
-              }
-              
-              .list {
-                  list-style: none;
-              }
-              /* ХЕДЕР */
-              
-              .header-link {
-                  font-weight: 500;
-                  font-size: 14px;
-                  line-height: 1.14;
-                  letter-spacing: 0.02em;
-                  color: var(--secondary-titele-color);
-              }
-              
-              .header-link:hover,
-              .header-link:focus {
-                  color: var(--accent-color);
-              }
-              
-              .header-contacst-link {
-                  color: var(--secondary-titele-color);
-                  font-weight: 500;
-                  font-size: 14px;
-                  line-height: 1.14;
-                  letter-spacing: 0.02em;
-              }
-              
-              .header-contacst-link:hover,
-              .header-contacst-link:focus {
-                  color: var(--accent-color);
-              }
-              /* МЕИН */
-              /* ХЕРО */
-              
-              .hero {
-                  background: #2F303A;
-                  ;
-              }
-              
-              .hero-title {
-                  font-weight: 900;
-                  font-size: 44px;
-                  line-height: 1.36;
-                  text-align: center;
-                  letter-spacing: 0.06em;
-                  text-transform: uppercase;
-                  color: var(--primary-titele-color);
-              }
-              
-              .btn {
-                  color: var(--primary-titele-color);
-                  background: #2196F3;
-                  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-                  border-radius: 4px;
-                  cursor: pointer;
-              }
-              /* ХАРАКТЕРИСТИКИ */
-              
-              .specifications-title {
-                  visibility: hidden;
-              }
-              
-              .specifications-item-title {
-                  font-size: 14px;
-                  line-height: 1.14;
-                  letter-spacing: 0.03em;
-                  text-transform: uppercase;
-                  color: var(--secondary-titele-color);
-              }
-              
-              .specifications-paragraph {
-                  font-size: 14px;
-                  line-height: 1.71;
-                  letter-spacing: 0.03em;
-              }
-              /* Чем мы занимаемся */
-              
-              .work-title {
-                  font-size: 36px;
-                  line-height: 1.16;
-                  letter-spacing: 0.03em;
-                  color: var(--secondary-titele-color);
-              }
-              /* НАША КОМАНДА */
-              
-              .command-title {
-                  font-size: 36px;
-                  line-height: 1.16;
-                  letter-spacing: 0.03em;
-                  color: var(--secondary-titele-color);
-              }
-              
-              .command-item-name {
-                  font-weight: 500;
-                  font-size: 16px;
-                  line-height: 1.18;
-                  letter-spacing: 0.03em;
-                  color: var(--secondary-titele-color);
-              }
-              
-              .command-profession {
-                  font-size: 16px;
-                  line-height: 19px;
-                  letter-spacing: 0.03em;
-              }
-              /* ФУТЕР */
-              
-              .footer {
-                  background: #2F303A;
-              }
-              
-              .address-footer-paragraph {
-                  font-size: 14px;
-                  line-height: 1.71;
-                  letter-spacing: 0.03em;
-                  color: var(--primary-titele-color);
-              }
-              
-              .footer-contacst-link {
-                  font-size: 14px;
-                  line-height: 1.71;
-                  letter-spacing: 0.03em;
-                  color: rgba(255, 255, 255, 0.6);
-              }
-              
-              .footer-logo {
-                  color: var(--primary-titele-color);
-              }
-              /* !!! PORTFOLIO !!! */
-              /* MAIN */
-              
-              .btn--portfolio {
-                  font-weight: 500;
-                  font-size: 16px;
-                  line-height: 1.63;
-                  text-align: center;
-                  letter-spacing: 0.03em;
-                  color: #FFFFFF;
-              }
-              
-              .btn--portfolio:hover,
-              .btn--portfolio:focus {
-                  color: var(--accent-color);
-              }
+:root {
+    --primary-titele-color: #ffffff;
+    --secondary-titele-color: #212121;
+    --primary-text-color: #757575;
+    --second-text-color: #212121;
+    --accent-color: #2196f3;
+}
+
+
+/* БОДИ */
+
+.body {
+    color: var(--primary-text-color);
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* ! ЛОГО */
+
+.logo-web {
+    color: var(--accent-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+
+/* ХЕДЕР */
+
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-titele-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-color);
+}
+
+.header-contacst-link {
+    color: var(--secondary-titele-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.header-contacst-link:hover,
+.header-contacst-link:focus {
+    color: var(--accent-color);
+}
+
+
+/* МЕИН */
+
+
+/* ХЕРО */
+
+.hero {
+    background: #2f303a;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-titele-color);
+}
+
+.btn {
+    color: var(--primary-titele-color);
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* ХАРАКТЕРИСТИКИ */
+
+.specifications-title {
+    visibility: hidden;
+}
+
+.specifications-item-title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-titele-color);
+}
+
+.specifications-paragraph {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+
+/* Чем мы занимаемся */
+
+.work-title {
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--secondary-titele-color);
+}
+
+
+/* НАША КОМАНДА */
+
+.command-title {
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--secondary-titele-color);
+}
+
+.command-item-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--secondary-titele-color);
+}
+
+.command-profession {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+
+
+/* ФУТЕР */
+
+.footer {
+    background: #2f303a;
+}
+
+.address-footer-paragraph {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-titele-color);
+}
+
+.footer-contacst-link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-logo {
+    color: var(--primary-titele-color);
+}
+
+
+/* !!! PORTFOLIO !!! */
+
+
+/* MAIN */
+
+.btn--portfolio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+
+.btn--portfolio:hover,
+.btn--portfolio:focus {
+    color: var(--accent-color);
+}
