@@ -51,19 +51,16 @@ body {
     color: var(--second-text-color)
 }
 
-.header-link:hover,
-.header-link:focus {
-    color: var(--accent-color);
-}
-
 .header-contacst-link {
-    color: var(--secondary-titele-color);
+    color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
+.header-link:hover,
+.header-link:focus,
 .header-contacst-link:hover,
 .header-contacst-link:focus {
     color: var(--accent-color);
@@ -187,10 +184,7 @@ body {
 }
 
 .address-footer-paragraph:hover,
-.address-footer-paragraph:focus {
-    color: var(--accent-color);
-}
-
+.address-footer-paragraph:focus,
 .footer-contacst-link:hover,
 .footer-contacst-link:focus {
     color: var(--accent-color);
